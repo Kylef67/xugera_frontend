@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <header className="absolute inset-x-0 top-0">
-      <div className="flex flex-row items-center space-x-1 justify-between">
+      <div className="flex flex-row items-center space-x-1 justify-between p-3">
         <div className="flex items-start relative justify-center">
           <Avatar className="h-12 w-12">
             <AvatarImage src="https://github.com/shadcn.png" />
